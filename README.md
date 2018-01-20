@@ -2,7 +2,7 @@
 Easily install/configure/control [cms](http://cms-dev.github.io/)(Contest Management System v1.3rc0) on remote machines.  
 
 ## Preparation  
-Change **commands.py**, **constants.py**, **passwords.py**, **ip_addresses** in config folder if it needed.  
+Change **ip_addresses**, **commands.py**, **constants.py**, **passwords.py** in **config** folder if it needed.  
 
 ## Installation of cms  
 Start script with **-i** flag and specify indexes of ip addreses numbered from zero.  
