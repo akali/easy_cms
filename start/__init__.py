@@ -1,4 +1,6 @@
+
 import subprocess
+import config
 
 def run(ip, id, contest):
 
@@ -8,4 +10,4 @@ def run(ip, id, contest):
         commands += "tmux new-session -d -s cms -n AdminServer 'cmsAdminWebServer'\; neww -n Logs 'cmsLogService'\; neww -n RankingServer 'cmsRankingWebServer'\; neww -n ResourceService 'cmsResourceService 0 -a {}'\;".format(contest);
     else:
         commands += "tmux new-session -d -s cms -n ResourceService 'cmsResourceService {} -a {}'\;".format(id, contest);
-    subprocess.call(["ssh", "-i", "./config/cms.pem", "-o StrictHostKeyChecking=no", "ubuntu@{}".format(ip), commands])
+    subprocess.call(config.commands.ssh + ["ubuntu@{}".format(ip), commands])
