@@ -1,5 +1,5 @@
 # easy_cms  
-Easily install, configure, control [cms](http://cms-dev.github.io/)(Contest Management System v1.3rc0) on remote machines.  
+Easily install, configure, control [cms](http://cms-dev.github.io/)(Contest Management System v1.3rc0) on remote ubuntu machines.  
 
 ## Preparation  
 Change **ip_addresses**, **commands.py**, **constants.py**, **passwords.py** in **config** folder if it needed.  
