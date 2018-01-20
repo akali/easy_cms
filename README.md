@@ -32,8 +32,8 @@ You can use **-n** flag to skip generating config files.
 Example: **python3 ./easy_cms 0 1 2 3 -n -u**  
 
 If you combine commands operations executed in this order:  
-**Install**  
-**Update configs**  
-**Start AdminWebServer**  
-**Stop cms**  
-**Start cms**  
+**Installation**  
+**Updating configs**  
+**Starting AdminWebServer**  
+**Stopping cms**  
+**Starting cms**  
