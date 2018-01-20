@@ -54,7 +54,7 @@ if __name__ == "__main__":
     parser.add_argument('--stop', action='store_true', default=False, dest='stop', help='stops cms on some machines.')
     parser.add_argument('--start_admin', action='store_true', default=False, dest='start_admin', help='starts only admin web server on alpha.')
     parser.add_argument('-n', action='store_true', default=False, dest='no_gen', help='skip generating config files and use old ones.')
-
+    parser.add_argument('--version', action='version', version='%(prog)s 2.0')
 
     results = parser.parse_args()
 
